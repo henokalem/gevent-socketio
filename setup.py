@@ -28,7 +28,7 @@ class PyTest(TestCommand):
         pytest.main(self.test_args)
 
 setup(
-    name="gevent-socketio",
+    name="gevent-socketio-py3",
     version="1.0.0",
     description=(
         "SocketIO server based on the Gevent pywsgi server, "
