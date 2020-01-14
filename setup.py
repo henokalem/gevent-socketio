@@ -6,6 +6,11 @@ from setuptools.command.test import test as TestCommand
 
 CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
 
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
+    long_description = f.read()
+
 def get_reqs(*fns):
     lst = []
     for fn in fns:
@@ -33,6 +38,8 @@ setup(
     description=(
         "SocketIO server based on the Gevent pywsgi server, "
         "a Python network library for Python 3"),
+    long_description=long_description,
+    long_description_content_type="text/x-rst",
     author="Henok Alem",
     author_email="alemaye3@gmai.com",
     maintainer="Henok Alem",
