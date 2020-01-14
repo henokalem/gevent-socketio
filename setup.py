@@ -29,17 +29,17 @@ class PyTest(TestCommand):
 
 setup(
     name="gevent-socketio",
-    version="0.3.6",
+    version="1.0.0",
     description=(
         "SocketIO server based on the Gevent pywsgi server, "
-        "a Python network library"),
-    author="Jeffrey Gelens",
-    author_email="jeffrey@noppo.pro",
-    maintainer="Alexandre Bourget",
-    maintainer_email="alex@bourget.cc",
+        "a Python network library for Python 3"),
+    author="Henok Alem",
+    author_email="alemaye3@gmai.com",
+    maintainer="Henok Alem",
+    maintainer_email="alemaye3@gmail.com",
     license="BSD",
-    url="https://github.com/abourget/gevent-socketio",
-    download_url="https://github.com/abourget/gevent-socketio",
+    url="https://github.com/henokalem/gevent-socketio-py3",
+    download_url="https://github.com/henokalem/gevent-socketio-py3",
     install_requires=get_reqs('pip-requirements.txt'),
     setup_requires=('versiontools >= 1.7'),
     cmdclass = {'test': PyTest},

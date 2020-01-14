@@ -1,3 +1,6 @@
+
+    This project was forked from ```https://github.com/abourget/gevent-socketio```
+
 Presentation
 ============
 
@@ -42,12 +45,11 @@ Discussion and questions happen on the mailing list:
 
 or in the Github issue tracking:
 
-* https://github.com/abourget/gevent-socketio/issues
+* https://github.com/henokalem/gevent-socketio-py3/issues
 
 You can also contact the maintainer:
 
-* https://twitter.com/#!/bourgetalexndre
-* https://plus.google.com/109333785244622657612
+* https://twitter.com/alem_live
 
 
 Installation
@@ -55,11 +57,11 @@ Installation
 
 You can install with standard Python methods::
 
-   pip install gevent-socketio
+   pip install gevent-socketio-py3
 
 or from source::
 
-   git clone git://github.com/abourget/gevent-socketio.git
+   git clone git@github.com:henokalem/gevent-socketio-py3.git
    cd gevent-socketio
    python setup.py install
 
